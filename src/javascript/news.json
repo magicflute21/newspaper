@@ -1,0 +1,52 @@
+ {
+    "Politics" : [
+        { 
+            "Heading" : "USA valijad said Eesti serverist ähvardavaid e-kirju, FBI alustas uurimist" ,
+            "Content" : "Ameerika Ühendriikide Alaska ja Florida osariigi valijad said teisipäeval sadu ähvardavaid e-kirju, milles manitseti kirja saajat hääletama presidendivalimiste päeval Donald Trumpi poolt. Ähvardavaid kirju saatnud e-posti aadressi metaandmed näitasid, et tegemist on Eesti serverist saadetud kirjadega." ,
+            "Link" : "https://www.postimees.ee/7091022/usa-valijad-said-eesti-serverist-ahvardavaid-e-kirju-fbi-alustas-uurimist" ,
+            "Author" : "Andres Einmann",
+            "Image": "https://f12.pmo.ee/RtoNHpgzbM0F3CU7lwwnZdsIKbc=/1370x820/filters:focal(1047x149:4491x2408)/nginx/o/2020/10/21/13425600t1h791d.jpg" 
+        },
+
+         {  
+            "Heading" : "Padupunase Lõuna valijad loodavad jumala abiga Trumpi võitu" ,
+            "Content" : "Winstoni maakonna puidust seintega kohtusaalist kostub pühalik palve. Selles konservatiivide kantsis Põhja-Alabamas võitis Donald Trump 2016. aastal 90 protsendi häältega. Kohalikud vabariiklased loodavad, et jumala abiga läheb presidendil sel korral veelgi paremini." ,
+            "Link" : "https://maailm.postimees.ee/7089621/padupunase-louna-valijad-loodavad-jumala-abiga-trumpi-voitu?_ga=2.44546084.1696716521.1603281968-1015069477.1603281964" ,
+            "Author" : "Pm" ,
+            "Image": "https://f11.pmo.ee/Vj5Z-ttoyYRcQRTFDySIiTFvaao=/1370x820/filters:focal(738x141:3090x2095)/nginx/o/2020/10/19/13422579t1h3354.jpg"
+        },
+
+         { "Heading" : "Ratas infotunnis: Eestis on inimõigused ja vähemuste õigused kaitstud" ,
+            "Content" : "Tänases riigikogu infotunnis vastasid riigikogu liikmete küsimustele  peaminister Jüri Ratas (Keskerakond), kaitseminister Jüri Luik (Isamaa) ning maaeluminister Arvo Aller (EKRE). Põhiteemaks oli sisepoliitiline pinev olukord. " ,
+            "Link" : "https://poliitika.postimees.ee/7090971/ratas-infotunnis-eestis-on-inimoigused-ja-vahemuste-oigused-kaitstud?_ga=2.116823814.1696716521.1603281968-1015069477.1603281964" ,
+            "Author" : "Raili Ralli",
+            "Image": "https://f9.pmo.ee/0oqg-rhC6CUj4EyLlS546iruhCU=/1370x820/filters:focal(877x1111:4879x3646)/nginx/o/2020/10/14/13412588t1hceac.jpg"
+        }
+    ] ,
+
+    "Culture" : [
+        { 
+            "Heading": "Kumus esilinastub Ülo Soosterist rääkiv film",
+            "Content": "Kumu kultuuriteemaliste dokumentaalfilmide sarja kolmapäevane seanss tuleb eriline – esilinastub avangardkunsti klassiku Ülo Soosteri elu ja loomingut käsitlev film.",
+            "Link": "https://kultuur.postimees.ee/7090124/kumus-esilinastub-ulo-soosterist-raakiv-film",
+            "Author": "Kultuuritoimetus",
+            "Image": "https://f11.pmo.ee/1kxW6vXyzC6PwfkprZcB7cYr92g=/1370x820/filters:focal(1036x977:1051x992)/nginx/o/2020/08/24/13296279t1h5d6e.jpg"
+        },
+
+        {
+            "Heading": "Tallinna Linnateatril on nüüd uus kodu",
+            "Content": "Tallinna Linnateater alustab oma ehitusaegset ajajärku Salme Kultuurikeskuses lavastusega Hitleri isiklikust vangist",
+            "Link": "https://kultuur.postimees.ee/7090148/tallinna-linnateatril-on-nuud-uus-kodu",
+            "Author": "" ,
+            "Image": "https://f12.pmo.ee/012zjo0UbCDyCBDH-eGMuZt2dts=/1370x820/filters:focal(292x380:1809x1294)/nginx/o/2020/10/20/13423381t1hd666.jpg"
+        },
+
+        {
+            "Heading": "empty",
+            "Content": "empty",
+            "Link": "empty",
+            "Author": "empty" 
+        }
+    ]
+}
+

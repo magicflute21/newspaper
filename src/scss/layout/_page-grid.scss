@@ -1,0 +1,102 @@
+.page-grid {
+    display: grid;
+    // background-color: whitesmoke;
+    max-width: 1500px;
+    margin: 50px 0 50px 70px;
+    grid-template-columns: 240px 400px 500px 500px;
+    grid-template-rows: 500px 500px;
+    grid-template-areas: 
+    "commercial feed headline headline"
+    "commercial feed sub-headline1 sub-headline2";
+    // gap: 10px;
+
+    // & > div {
+    //     // padding: 20px;
+    // }
+
+    .commercial {
+        grid-area: commercial;
+        margin-right: 100px;
+        background-color: rgb(255, 190, 10);
+    }
+
+    .feed {
+        grid-area: feed;
+        padding: 40px 40px 40px 0;
+        background-color: white;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        border-right: 1px solid lightgrey;
+
+        &__container {
+            background-color: whitesmoke;
+            width: 320px;
+            height: 860px;
+            padding: 30px;
+        }
+
+        &__list {
+            ul {
+                list-style-type: none;
+            }
+        }
+
+        &__item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 15px;
+
+            h6 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .headline {
+        grid-area: headline;
+        padding: 40px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+
+        &__container {
+            background-color: whitesmoke;
+            width: 100%;
+            height: 340px;
+            padding: 40px;
+            // selle võib ka taustapildiks teha, pildi võtab JSon filest 
+            // või isegi kuskilt onlinest
+        }
+
+        &__heading {
+            font-family: 'Taviraj', serif;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+    }
+
+    .subline {
+        padding: 40px;
+        background-color: white;
+        border-bottom: 1px solid lightgrey;
+
+        &__container {
+            background-color: whitesmoke;
+            width: 380px;
+            height: 360px;
+            padding: 30px;
+        }
+    }
+
+    .subline1 {
+        grid-area: sub-headline1;
+    }
+
+    .subline2 {
+        grid-area: sub-headline2;
+    }
+
+    // .footer {
+    //     grid-area: footer;
+    //     background-color: rgb(8, 8, 10);
+    // }
+}
