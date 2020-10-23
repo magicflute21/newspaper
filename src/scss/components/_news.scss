@@ -1,0 +1,45 @@
+.headline {
+    position: relative;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 80px);
+        object-fit: cover;
+    }
+
+    .scrim {
+        position: absolute;
+        height: calc(100% - 80px);
+        width: 100%;
+        background-color: rgba(0,0,0, .3);
+        transition: .4s;
+
+        &:hover {
+            background-color: rgba(0,0,0, .1);
+
+            // .headline__heading {
+            //     color: lightblue;
+            // }
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1 {
+            z-index: 3;
+            position: relative;
+            color: white;
+        }
+
+        p {
+            z-index: 3;
+            position: relative;
+            color: white;
+        }
+
+    }
+}

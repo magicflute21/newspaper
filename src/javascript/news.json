@@ -1,5 +1,7 @@
- {
-    "Politics" : [
+let news = 
+
+{    
+	"Politics" : [
         { 
             "Heading" : "USA valijad said Eesti serverist ähvardavaid e-kirju, FBI alustas uurimist" ,
             "Content" : "Ameerika Ühendriikide Alaska ja Florida osariigi valijad said teisipäeval sadu ähvardavaid e-kirju, milles manitseti kirja saajat hääletama presidendivalimiste päeval Donald Trumpi poolt. Ähvardavaid kirju saatnud e-posti aadressi metaandmed näitasid, et tegemist on Eesti serverist saadetud kirjadega." ,
@@ -49,4 +51,3 @@
         }
     ]
 }
-

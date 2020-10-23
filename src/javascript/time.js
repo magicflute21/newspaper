@@ -25,22 +25,22 @@
 // console.log(message.content);
 
 
-const heading= document.getElementById('heading');
-const author= document.getElementById('author');
-const content= document.getElementById('content');
+// const heading= document.getElementById('heading');
+// const author= document.getElementById('author');
+// const content= document.getElementById('content');
  
-class Message {
-    constructor(heading, author ="anonymous", content) {
-        this.heading = heading;
-        this.content = content;
-        this.author = author;
-    }
-}
+// class Message {
+//     constructor(heading, author ="anonymous", content) {
+//         this.heading = heading;
+//         this.content = content;
+//         this.author = author;
+//     }
+// }
 
-let contentText = 'Kassid ja koerad Content Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos libero officiis quasi autem consectetur fuga nulla accusamus velit id hic.';
-let message = new Message('Unemployment in SF','Mary Pillermann', contentText);
+// let contentText = 'Kassid ja koerad Content Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos libero officiis quasi autem consectetur fuga nulla accusamus velit id hic.';
+// let message = new Message('Unemployment in SF','Mary Pillermann', contentText);
 
-heading.innerHTML = message.heading;
-author.innerHTML += message.author;
-content.innerHTML = message.content;
+// heading.innerHTML = message.heading;
+// author.innerHTML += message.author;
+// content.innerHTML = message.content;
 // wohoo :P
