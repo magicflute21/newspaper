@@ -44,10 +44,20 @@ let news =
         },
 
         {
-            "Heading": "empty",
-            "Content": "empty",
-            "Link": "empty",
-            "Author": "empty" 
+            "Heading": "Jude Law võimas roll: inimhinge kõdunemise visuaalne ilu",
+            "Content": "Ligi kümme aastat pärast meeldejäävat debüütmängufilmi «Martha Marcy May Marlene» üllatab stsenarist-lavastaja Sean Durkin uue draamaga «Pesa». Selle pealkiri sümboliseerib muldvana häärberit Inglismaal, kuhu otsustab Ameerikast elama kolida neljaliikmeline O’Harade perekond.",
+            "Link": "https://leht.postimees.ee/7095147/jude-law-voimas-roll-inimhinge-kodunemise-visuaalne-ilu?_ga=2.20863800.1812516423.1603794100-71383264.1600071670",
+            "Author": "Ralf Sauter" ,
+            "Image": "https://f12.pmo.ee/xKiRumzRJSkbVlDOIDJqe4Xid98=/1370x820/filters:focal(499x230:514x245)/nginx/o/2020/10/11/13406796t1h8eaa.jpg"
         }
-    ]
+    ],
+// üks lihtsama struktuuriga objekt harjutamiseks
+
+    "Digi" : [
+         {        
+            "Heading" : "iPhone 12 protsessori võimsus on mäekõrguselt Androididest üle",
+            "Content" :  "Erinevate jõudlust mõõtvate testide tegemisel on selgunud, et iPhone 12 mudeli protsessor on peajagu üle kõigist teistest konkurentidest.Tom’s Guide nimeline tehnikaportaal on ette võtnud uue iPhone 12 protsessori ning testinud selle võimekust teiste Androididega võrreldes. Teatavasti tutvustas Apple uuel mudelil A14 Bionic kiipi, mis peaks olema kuni poole võimsas eelnevast. ",
+            "Image" : "https://digi.geenius.ee/app/uploads/sites/7/2020/10/c8d8448bc264af5a8ac10122a91c47ce-770x550.jpg"
+         }
+            ]
 }

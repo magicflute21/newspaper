@@ -1,6 +1,8 @@
 .headline {
     position: relative;
 
+    &__container {
+
     img {
         position: absolute;
         width: 100%;
@@ -8,38 +10,70 @@
         object-fit: cover;
     }
 
+        .scrim {
+            position: absolute;
+            height: calc(100% - 160px);
+            width: 920px;
+            background-color: rgba(0,0,0,.3);
+            // transition: .4s;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+
+            h1 {
+                z-index: 3;
+                position: relative;
+                color: white;
+                text-align: left;
+                // transition: .4s;
+            }
+
+            // p {
+            //     z-index: 3;
+            //     position: relative;
+            //     color: white;
+            // }
+        }
+    }
+}
+
+.subline {
+    position: relative;
+
+    img {
+        position: absolute;
+        height: calc(100% - 80px);
+        width: 100%;
+        object-fit: cover;
+    }
     .scrim {
         position: absolute;
         height: calc(100% - 80px);
         width: 100%;
         background-color: rgba(0,0,0, .3);
-        transition: .4s;
 
-        &:hover {
-            background-color: rgba(0,0,0, .1);
-
-            // .headline__heading {
-            //     color: lightblue;
-            // }
-        }
     }
 
     &__container {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
 
-        h1 {
+        h3 {
             z-index: 3;
             position: relative;
             color: white;
+            line-height: 1.2;
+            text-align: left;
         }
 
-        p {
-            z-index: 3;
-            position: relative;
-            color: white;
-        }
+        // p {
+        //     z-index: 3;
+        //     position: relative;
+        //     color: white;
+        // }
 
     }
 }
