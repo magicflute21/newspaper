@@ -1,4 +1,6 @@
 // html items
+console.log(typeof news); 
+
 
 const headlineImage = document.getElementById('headline-img');
 const subline1Image = document.getElementById('subline1-img');
