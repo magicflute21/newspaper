@@ -89,3 +89,52 @@ var obj = {hobune:"tori", treener:"doris", varss:2};
 // NÄITAB ÄRA, ET VALUEKS ON ARRAY, MILLE SEES ON OBJEKTID
 // let valuesMethod = Object.values(news);
 // console.log(valuesMethod);
+
+
+
+// MAP FUNCTION
+
+let allData = [];
+
+function pushData() {
+    news.Politics.map(e => {
+        allData.push(e);
+    })
+    news.Culture.map(e => {
+        allData.push(e);
+    })
+    news.Digi.map(e => {
+        allData.push(e);
+    })
+}
+
+pushData();
+// console.log(allData);
+
+class App {
+    constructor(){
+        this.info = allData.map(item => {
+            return new News(item);
+        })
+    }
+
+        log(){
+            console.log(this.info);
+        }
+} 
+
+class News {
+    constructor(item){
+        this.heading = item.Heading;
+    }
+
+    showHeading(){
+        console.log(this.heading);
+    }
+}
+
+
+
+let app = new App;
+// app.info[0].showHeading();
+console.log(app.info[1].heading);

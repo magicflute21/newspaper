@@ -121,6 +121,42 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/javascript/class.js":
+/*!*********************************!*\
+  !*** ./src/javascript/class.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Sounds; });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Sounds = function Sounds(animal, name) {\n  _classCallCheck(this, Sounds);\n\n  this.animal = animal;\n  this.name = name;\n};\n\n\n\n//# sourceURL=webpack:///./src/javascript/class.js?");
+
+/***/ }),
+
+/***/ "./src/javascript/export.js":
+/*!**********************************!*\
+  !*** ./src/javascript/export.js ***!
+  \**********************************/
+/*! exports provided: elephant, dog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"elephant\", function() { return elephant; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"dog\", function() { return dog; });\nvar elephant = \"Johnny\";\nvar dog = \"Kutsu\";\n\n\n//# sourceURL=webpack:///./src/javascript/export.js?");
+
+/***/ }),
+
+/***/ "./src/javascript/import.js":
+/*!**********************************!*\
+  !*** ./src/javascript/import.js ***!
+  \**********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _export__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./export */ \"./src/javascript/export.js\");\n/* harmony import */ var _class__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./class */ \"./src/javascript/class.js\");\n // console.log(elephant);\n// console.log(dog);\n\n\n // console.log(a);\n\nvar cat = new _class__WEBPACK_IMPORTED_MODULE_1__[\"default\"](cat, \"Garfield\");\nconsole.log(cat.name);\nconsole.log(cat.animal);\n\n//# sourceURL=webpack:///./src/javascript/import.js?");
+
+/***/ }),
+
 /***/ "./src/javascript/index.js":
 /*!*********************************!*\
   !*** ./src/javascript/index.js ***!
@@ -129,29 +165,18 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _time__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./time */ \"./src/javascript/time.js\");\n/* harmony import */ var _time__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_time__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _news_controls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./news-controls */ \"./src/javascript/news-controls.js\");\n/* harmony import */ var _news_controls__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_news_controls__WEBPACK_IMPORTED_MODULE_2__);\n\n\n // import './testing';\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _testing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./testing */ \"./src/javascript/testing.js\");\n/* harmony import */ var _testing__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_testing__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _import__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./import */ \"./src/javascript/import.js\");\n // import './time';\n// import './news-controls';\n\n\n // import './export';\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
 
 /***/ }),
 
-/***/ "./src/javascript/news-controls.js":
-/*!*****************************************!*\
-  !*** ./src/javascript/news-controls.js ***!
-  \*****************************************/
+/***/ "./src/javascript/testing.js":
+/*!***********************************!*\
+  !*** ./src/javascript/testing.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\n// html items\nconsole.log(typeof news === \"undefined\" ? \"undefined\" : _typeof(news));\nvar headlineImage = document.getElementById('headline-img');\nvar subline1Image = document.getElementById('subline1-img');\nvar subline2Image = document.getElementById('subline2-img');\nvar headings = document.querySelectorAll('.heading'); //nodelist, works kinda like array\n// ---------- ühe random artikli saab nii kätte\n// let subject = Object.entries(news); //[Array, Array, Array]\n// let r = Math.floor(Math.random() * subject.length) //0-2\n// // console.log(subject);\n// let articles = subject[r][1]; //random theme cathegory content, [{}]\n// console.log(articles); \n// let rr = Math.floor(Math.random() * articles.length);\n// let article = articles[rr];\n// console.log(article); //suvaline artikkel suvalisest teemast olemas\n// ------------------------------------------------------\n// LÄHENEN TEISTMOODI: kõik artiklid lükkan ühte arraysse, siis on lihtsam töödelda selliselt et saaks unikaalse tulemuse\n\nvar allArticles = [];\nnews.Culture.forEach(function (element) {\n  allArticles.push(element);\n});\nnews.Digi.forEach(function (element) {\n  allArticles.push(element);\n});\nnews.Politics.forEach(function (element) {\n  allArticles.push(element);\n});\n\nfunction pickRandomArticle() {\n  var len = allArticles.length;\n  var rand = Math.floor(Math.random() * len);\n  var pickedArticle = allArticles.splice(rand, 1); //take this article out of the array\n\n  return pickedArticle;\n} // repetition here\n// kas saaks kuidagi paremini seda teha`?\n\n\nvar test = pickRandomArticle();\nheadings[0].innerHTML = test[0].Heading;\nheadlineImage.src = test[0].Image;\nvar test2 = pickRandomArticle();\nheadings[1].innerHTML = test2[0].Heading;\nsubline1Image.src = test2[0].Image;\nvar test3 = pickRandomArticle();\nheadings[2].innerHTML = test3[0].Heading;\nsubline2Image.src = test3[0].Image;\n\n//# sourceURL=webpack:///./src/javascript/news-controls.js?");
-
-/***/ }),
-
-/***/ "./src/javascript/time.js":
-/*!********************************!*\
-  !*** ./src/javascript/time.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// const time = document.getElementById('time');\n// time.innerHTML = '5';\n// time.addEventListener('mouseover', hover);\n// time.addEventListener('mouseleave', hoverover);\n// function hover(){    \n//     time.style.opacity = '.3';\n//     console.log(time.style.opacity);\n// }\n// function hoverover(){\n//     time.style.opacity = '1';\n//     console.log(time.style.opacity);\n// }\n// just some Class practice\n// function Message(heading, content) {\n//     this.heading= heading;\n//     this.content= content;\n// }\n// let message = new Message('New Vaccine', 'lalla lal la l aala l');\n// console.log(message.content);\n// const heading= document.getElementById('heading');\n// const author= document.getElementById('author');\n// const content= document.getElementById('content');\n// class Message {\n//     constructor(heading, author =\"anonymous\", content) {\n//         this.heading = heading;\n//         this.content = content;\n//         this.author = author;\n//     }\n// }\n// let contentText = 'Kassid ja koerad Content Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos libero officiis quasi autem consectetur fuga nulla accusamus velit id hic.';\n// let message = new Message('Unemployment in SF','Mary Pillermann', contentText);\n// heading.innerHTML = message.heading;\n// author.innerHTML += message.author;\n// content.innerHTML = message.content;\n// wohoo :P\n\n//# sourceURL=webpack:///./src/javascript/time.js?");
+eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n// var arr = [];\n// while(arr.length < 8){\n//     var r = Math.floor(Math.random() * 100) + 1;\n//     if(arr.indexOf(r) === -1) arr.push(r);\n//     // sellest ifist ei saa siin aru \n// }\n// console.log(arr);\n//  1 kuni 10, ilma +1-ta oleks 0-9\n// console.log(Math.floor(Math.random() * 10) + 1);\n// indexOf - saab kasutada nii stringis kui ka arrays\n// var states = ['off', 'on', 'muted', 'active'];\n// console.log(states.indexOf('on')); //1\n// console.log(states.indexOf('non-existent')); //-1\nvar obj = {\n  hobune: \"tori\",\n  treener: \"doris\",\n  varss: 2\n}; // console.log(obj[\"hobune\"]); //annab vasteks selle prop value\n// obj.hasOwnProperty(\"hobune\"); //true\n// for(var property in obj){\n//     console.log(property); //hobune treener varss\n// }\n// -----------------------------------\n// arrays kindla key ja value vaste indexi leidmine\n// function findWithAttr(array, attr, value) {\n//     for(var i = 0; i < array.length; i += 1) {\n//         if(array[i][attr] === value) {\n//             console.log(i);\n//             return i;\n//         }\n//     }\n//     console.log(i); //2... aga returnib -1..\n//     return -1;\n// }\n// var Data = [\n//     {id_list: 2, name: 'John', token: '123123'},\n//     {id_list: 1, name: 'Nick', token: '312312'}\n// ];\n// findWithAttr(Data, 'name', 'John'); // returns 0\n// console.log(findWithAttr(Data, 'id_list', '10')); //returns -1\n// MAKE OBJECTD TO AN ARRAY \n// var newArray = Object.keys(obj);\n// var values= Object.values(obj);\n// var both = Object.entries(obj); //array within array, iga key-value pair muutub arrayks [\"Hobune\", \"tori\"]\n// console.log(newArray);\n// console.log(values);\n// console.log(both);\n// KUIDAS SAADA KÄTTE OBJEKT KEYS\n// TULEMUSED STRINGINA:\n// for (var key in news) {\n//     console.log(key);\n// tulemused on stringidena\n// }\n// SAAD KÄTTE NII KEY KUI KA VALUE VÕI VALI KUMB TAHAD\n// for (let key in news) {\n//     console.log(`${key} -> ${news[key]}`);\n//     // console.log(`${news[key][0]}`);\n//     for (i=0; i < news[key].length ; i++) {\n//         console.log(news[key][i].Heading);\n//     }\n// }\n// JA NII SAINGI KÄTTE KÕIK PEALKIRJAD\n// TULEMUSED ARRAYNA\n// console.log('Object.keys method: ' + Object.keys(news)+ ' data type: ' + typeof Object.keys(news));\n// let keysMethod = Object.keys(news);\n// console.log(keysMethod);\n// NÄITAB ÄRA, ET VALUEKS ON ARRAY, MILLE SEES ON OBJEKTID\n// let valuesMethod = Object.values(news);\n// console.log(valuesMethod);\n// MAP FUNCTION\n\nvar allData = [];\n\nfunction pushData() {\n  news.Politics.map(function (e) {\n    allData.push(e);\n  });\n  news.Culture.map(function (e) {\n    allData.push(e);\n  });\n  news.Digi.map(function (e) {\n    allData.push(e);\n  });\n}\n\npushData(); // console.log(allData);\n\nvar App = /*#__PURE__*/function () {\n  function App() {\n    _classCallCheck(this, App);\n\n    this.info = allData.map(function (item) {\n      return new News(item);\n    });\n  }\n\n  _createClass(App, [{\n    key: \"log\",\n    value: function log() {\n      console.log(this.info);\n    }\n  }]);\n\n  return App;\n}();\n\nvar News = /*#__PURE__*/function () {\n  function News(item) {\n    _classCallCheck(this, News);\n\n    this.heading = item.Heading;\n  }\n\n  _createClass(News, [{\n    key: \"showHeading\",\n    value: function showHeading() {\n      console.log(this.heading);\n    }\n  }]);\n\n  return News;\n}();\n\nvar app = new App(); // app.info[0].showHeading();\n\nconsole.log(app.info[1].heading);\n\n//# sourceURL=webpack:///./src/javascript/testing.js?");
 
 /***/ }),
 
